@@ -7,7 +7,7 @@
   ],
   "esy": {
     "build": [
-      "./esy-configure -no-cfi -prefix $cur__install",
+      "./esy-configure -spacetime -no-cfi -prefix $cur__install",
       "./esy-build"
     ],
     "buildsInSource": true,
